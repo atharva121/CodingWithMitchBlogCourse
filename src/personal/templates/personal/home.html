@@ -3,8 +3,8 @@
 <div style="border: 2px solid #000;">
     <h1>This is the body</h1>
     <p>Here is where you put the stuff that should be in the body of your websites.</p>
-    {%for question in questions%}
-        {%include 'personal/snippets/body_snippet.html' with value=question%}
+    {%for account in accounts%}
+    {{account}}</p>
     {%endfor%}
 </div>
 {%endblock content%}
